@@ -39,7 +39,7 @@ try:
         iteration += 1
         print("{}.Current Position: {}, New Position: x={}, y={}".format(
             iteration, pyautogui.position(), new_x, new_y))
-        time.sleep(5)
+        time.sleep(70)
 except KeyboardInterrupt:
     print("{}.Current Position: {}, New Position: x={}, y={}".format(
             iteration, pyautogui.position(), original_x, original_y))
